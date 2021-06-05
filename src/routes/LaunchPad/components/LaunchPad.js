@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import { ClassRocket, FunctionalRocket } from './Rocket';
+import React from 'react';
+import { FunctionalRocket} from './Rocket';
 import '../styles/_launchpad.scss';
 
 export default function LaunchPad() {
-  const [rerenderCount, triggerRerender] = useState(0);
 
-  setTimeout(() => { triggerRerender(rerenderCount + 1); }, 500);
+// erase the fucntion to launch the rocket
 
   return (
     <div className="launchpad">
-      <ClassRocket />
+      <FunctionalRocket />
     </div>
   );
 }
