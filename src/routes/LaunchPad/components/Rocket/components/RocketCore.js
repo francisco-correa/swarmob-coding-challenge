@@ -15,9 +15,9 @@ function timeToPositionPercent(startTime) {
     let percentage = (timeDiff / MS_TO_TAKEOFF) * 100
     const range_max = 0
     percentage = percentage >= range_max ? range_max : percentage
-    const lanchRocket = `calc(400px + ${(percentage).toFixed(0)}%)`;
-    console.log(lanchRocket, "<--rocket")
-    return lanchRocket
+    const launchRocket = `calc(400px + ${(percentage).toFixed(0)}%)`;
+    console.log(launchRocket, "<--rocket")
+    return launchRocket
 
 }
 
