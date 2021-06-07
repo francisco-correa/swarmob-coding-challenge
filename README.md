@@ -17,3 +17,18 @@ Ninguno
 ## Screenshots 🌄
 &nbsp;
 ![screenshot](https://puu.sh/Fq16F/1ad6edff1b.png)
+
+
+&nbsp;
+## ¿Cómo correr la aplicación? ✅
+* npm install
+* npm start
+
+&nbsp;
+## Solución ✅
+### Generar cosntantes y descomponer las variables en el archivo RocketCore.js
+```
+range_max = 0
+percentage = percentage >= range_max ? range_max : percentage
+calc(400px)
+```
